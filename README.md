@@ -14,3 +14,4 @@ Features:
 - feature rich Makefile
 - Vagrant
 - Travis CI
+- local `.vimrc`
