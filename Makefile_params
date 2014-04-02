@@ -1,6 +1,19 @@
 #CXXFLAGS_EXTRA	:= -f --flag
 #LIBS			:= -lboost_graph -lm
-# Compile C instead:
+
+# Where to place output, and which directory to run it from.
+# Default: current directory. The output file `main` is already gitignored.
+# Good already gitignored optoin: _build/.
+# Use a subdirectory when the executable generates other files in current directory when run.
+#OUT_DIR		:= _build/
+
+# Extension to compile. Deterimes the compiler to use.
+# Default value: .cpp
+# Possible values and corresponding compilers:
+# - .c   -> gcc
+# - .cpp -> g++
+# - .f   -> gfortran
 #OUT_EXT		:= .c
+
 # If you add new targets on Makefile_targets, you might want to add them here:
 #PHONY			:= another-phony

@@ -1,0 +1,5 @@
+# Called after all.
+# Common application: copy media files that must be on the same directory
+#
+#all-post:
+	#ln -s ../media "$(OUT_DIR)media"
