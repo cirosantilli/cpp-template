@@ -3,7 +3,7 @@
 
 # Where to place output, and which directory to run it from.
 # Default: current directory. The output file `main` is already gitignored.
-# Good already gitignored optoin: _build/.
+# Good already gitignored option: _build/.
 # Use a subdirectory when the executable generates other files in current directory when run.
 #OUT_DIR		:= _build/
 

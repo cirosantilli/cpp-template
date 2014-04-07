@@ -1,5 +1,4 @@
-# Called after all.
-# Common application: copy media files that must be on the same directory
-#
+# Called after target `all`.
+# Symlink some more directories into OUT_DIR. `input` is already symlinked.
 #all-post:
-	#ln -s ../media "$(OUT_DIR)media"
+	#ln -fs ../media "$(OUT_DIR)media"

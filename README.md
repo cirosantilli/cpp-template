@@ -7,4 +7,4 @@ Relies on <https://github.com/cirosantilli/cpp-boilerplate> to factor code out. 
 Quickstart Ubuntu 12.04:
 
     ./configure
-    make run
+    make test

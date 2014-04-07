@@ -1,7 +1,1 @@
-#!/usr/bin/env bash
-set -e
-OUT_DIR="$1"
-OUT_BASENAME="$2"
-cd "$OUT_DIR"
-./"$OUT_BASENAME"
-echo 'All tests passed.'
+boilerplate/test
